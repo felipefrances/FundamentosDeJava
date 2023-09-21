@@ -9,8 +9,8 @@ public class Exercicio06 {
     public static void main(String[] args) {
 
         float numPositivo;
-        float numQuadrado = 0;
-        float raizQuadrada = 0;
+        float numQuadrado;
+        float raizQuadrada;
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Digite um número positivo: ");
