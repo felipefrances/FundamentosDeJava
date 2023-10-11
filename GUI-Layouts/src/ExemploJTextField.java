@@ -55,7 +55,7 @@ public class ExemploJTextField {
         enviar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                resultado.setText(primeiroNomeTf.getText() + " " + sobrenomeTf.getText() + " " + idadeTf.getText());
+                resultado.setText("Olá " + primeiroNomeTf.getText() + " " + sobrenomeTf.getText() + " " + " você tem " + idadeTf.getText() + " anos.");
             }
         });
 
