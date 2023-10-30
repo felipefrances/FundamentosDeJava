@@ -42,6 +42,7 @@ public final class FormularioExemplo extends JFrame {
 
 
     public void initUI() {
+        //um panel para os dados pessoais - títulos e campos de texto
         pnlPersonalData = new JPanel();
         pnlPersonalData.setLayout(new GridLayout(6,1));
 
@@ -56,6 +57,7 @@ public final class FormularioExemplo extends JFrame {
         );
         add(pnlPersonalData);
 
+        //um panel para os botões
         pnlButtons = new JPanel();
         pnlButtons.setLayout(new FlowLayout());
 
@@ -68,6 +70,7 @@ public final class FormularioExemplo extends JFrame {
 
         add(pnlButtons);
 
+        //um panel para o output
         pnlOutput = new JPanel();
         pnlOutput.setLayout(new GridLayout(1,1));
         pnlOutput.add(lblOutput);
@@ -76,6 +79,7 @@ public final class FormularioExemplo extends JFrame {
         add(pnlOutput);
     }
 
+    //verificação do preenchimento dos campos - foram preenchidos ou não?
     public void verifyFields(String fname, String lname, String age) {
         boolean flag = false;
         if(fname.isEmpty()) {
@@ -95,6 +99,7 @@ public final class FormularioExemplo extends JFrame {
         }
     }
 
+    //ação do botão limpar
     private class ClearAction implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
@@ -105,6 +110,7 @@ public final class FormularioExemplo extends JFrame {
 
     }
 
+    //ação do botão enviar
     private class SendAction implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {

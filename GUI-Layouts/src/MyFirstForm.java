@@ -6,7 +6,6 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 public class MyFirstForm extends JFrame {
-
     JLabel message;
     JPanel panel = new JPanel();
 
