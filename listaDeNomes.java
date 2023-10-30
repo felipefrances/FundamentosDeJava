@@ -21,8 +21,10 @@ public class listaDeNomes {
             nomes.add(scan.next());
 
         }
-
+        //uso do forEach para o output dos nomes
         for(String n: nomes){
+            System.out.println(n.toUpperCase());
+
 
         }
     }
