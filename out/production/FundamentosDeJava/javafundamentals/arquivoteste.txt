@@ -1,0 +1,1 @@
+arquivo criado usando o pacote file através da manipulação de arquivos.

@@ -4,7 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FundamentosDeJava.iml" filepath="$PROJECT_DIR$/FundamentosDeJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/GUI-Layouts/GUI-Layouts.iml" filepath="$PROJECT_DIR$/GUI-Layouts/GUI-Layouts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListaNP2/ListaNP2.iml" filepath="$PROJECT_DIR$/ListaNP2/ListaNP2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ManipulacaoDeArquivos/ManipulacaoDeArquivos.iml" filepath="$PROJECT_DIR$/ManipulacaoDeArquivos/ManipulacaoDeArquivos.iml" />
       <module fileurl="file://$PROJECT_DIR$/NP1-LP1/NP1-LP1.iml" filepath="$PROJECT_DIR$/NP1-LP1/NP1-LP1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TratamentoDeExcecoes/TratamentoDeExcecoes.iml" filepath="$PROJECT_DIR$/TratamentoDeExcecoes/TratamentoDeExcecoes.iml" />
       <module fileurl="file://$PROJECT_DIR$/listaNP1/listaNP1.iml" filepath="$PROJECT_DIR$/listaNP1/listaNP1.iml" />
     </modules>
   </component>
